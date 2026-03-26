@@ -1,0 +1,36 @@
+#profile-update-interval: 1
+#profile-title: ⚡ Truth VPN
+#support-url: https://t.me/ittruth
+#announce: base64:VGVsZWdyYW06IEBpdFRydXRo
+
+vless://a22f6494-f371-07d0-bad0-8df9594b8e45@89.208.230.64:443?security=tls&encryption=none&alpn=h2,http/1.1&headerType=none&fp=qq&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=anti-vpn.ru#1+%F0%9F%87%B7%F0%9F%87%BA
+vless://a22f6494-f371-07d0-bad0-8df9594b8e45@109.120.188.225:443?security=tls&encryption=none&alpn=h2,http/1.1&headerType=none&fp=qq&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=anti-vpn.ru#2
+vless://a22f6494-f371-07d0-bad0-8df9594b8e45@89.208.231.198:443?security=tls&encryption=none&alpn=h2,http/1.1&headerType=none&fp=qq&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=anti-vpn.ru#3+%F0%9F%87%B7%F0%9F%87%BA
+vless://13c1bcd5-71c0-07d0-8972-d4da5c0f3c8a@109.120.188.27:443?security=tls&encryption=none&alpn=h2,http/1.1&headerType=none&fp=qq&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=anti-vpn.ru#4
+vless://a22f6494-f371-07d0-bad0-8df9594b8e45@109.120.188.27:443?security=tls&encryption=none&headerType=none&fp=qq&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=anti-vpn.ru#5
+vless://13c1bcd5-71c0-07d0-8972-d4da5c0f3c8a@89.208.230.167:443?security=tls&encryption=none&alpn=h2,http/1.1&headerType=none&fp=qq&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=anti-vpn.ru#6+%F0%9F%87%B7%F0%9F%87%BA
+vless://001a44d7-69e6-07d0-8d11-828fe2119621@109.120.188.27:443?security=tls&encryption=none&alpn=h2,http/1.1&headerType=none&fp=qq&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=anti-vpn.ru#7
+vless://13c1bcd5-71c0-07d0-8972-d4da5c0f3c8a@5.188.140.211:443?security=tls&encryption=none&alpn=h2,http/1.1&headerType=none&fp=qq&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=anti-vpn.ru#8
+vless://e928d85d-f223-07d0-a1d2-a56e9fbd50e0@109.120.188.27:443?security=tls&encryption=none&alpn=h2,http/1.1&headerType=none&fp=qq&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=anti-vpn.ru#9
+vless://001a44d7-69e6-07d0-8d11-828fe2119621@5.188.140.211:443?security=tls&encryption=none&alpn=h2,http/1.1&headerType=none&fp=qq&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=anti-vpn.ru#10
+vless://148c2937-fb6d-0bb8-93a8-369b1fbc9791@5.188.141.186:443?security=reality&encryption=none&pbk=4CH3o5zOMcFNMbnwXnkAg0FFepmsc0QzhahXkUzb1ik&headerType=none&fp=qq&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=ads.x5.ru&sid=d8c6b58bcbb0c323#11
+vless://e928d85d-f223-07d0-a1d2-a56e9fbd50e0@89.208.230.167:443?security=tls&encryption=none&alpn=h2,http/1.1&headerType=none&fp=qq&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=anti-vpn.ru#12+%F0%9F%87%B7%F0%9F%87%BA
+vless://001a44d7-69e6-07d0-8d11-828fe2119621@89.208.230.167:443?security=tls&encryption=none&headerType=none&fp=qq&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=anti-vpn.ru#13+%F0%9F%87%B7%F0%9F%87%BA
+vless://001a44d7-69e6-07d0-8d11-828fe2119621@89.208.230.167:443?security=tls&encryption=none&alpn=h2,http/1.1&headerType=none&fp=qq&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=anti-vpn.ru#14+%F0%9F%87%B7%F0%9F%87%BA
+vless://a22f6494-f371-1f40-bad0-8df9594b8e45@5.188.142.9:443?security=reality&encryption=none&pbk=4CH3o5zOMcFNMbnwXnkAg0FFepmsc0QzhahXkUzb1ik&headerType=none&fp=qq&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=ads.x5.ru&sid=d8c6b58bcbb0c323#15+%F0%9F%87%B7%F0%9F%87%BA
+vless://a22f6494-f371-07d0-bad0-8df9594b8e45@109.120.188.160:443?security=tls&encryption=none&alpn=h2,http/1.1&headerType=none&fp=qq&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=anti-vpn.ru#16
+vless://e928d85d-f223-0bb8-a1d2-a56e9fbd50e0@109.120.188.27:443?security=tls&encryption=none&alpn=h2,http/1.1&headerType=none&fp=qq&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=anti-vpn.ru#17
+vless://a22f6494-f371-1f40-bad0-8df9594b8e45@5.188.141.186:443?security=reality&encryption=none&echfq=none&pbk=4CH3o5zOMcFNMbnwXnkAg0FFepmsc0QzhahXkUzb1ik&headerType=none&fp=qq&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=ads.x5.ru&sid=d8c6b58bcbb0c323#18+%F0%9F%87%B7%F0%9F%87%BA
+vless://e928d85d-f223-1f40-a1d2-a56e9fbd50e0@5.188.142.9:443?security=reality&encryption=none&pbk=4CH3o5zOMcFNMbnwXnkAg0FFepmsc0QzhahXkUzb1ik&headerType=none&fp=qq&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=ads.x5.ru&sid=d8c6b58bcbb0c323#19
+vless://13c1bcd5-71c0-03e8-8972-d4da5c0f3c8a@5.188.141.186:443?security=reality&encryption=none&pbk=4CH3o5zOMcFNMbnwXnkAg0FFepmsc0QzhahXkUzb1ik&headerType=none&fp=qq&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=ads.x5.ru&sid=d8c6b58bcbb0c323#20
+vless://60aaa42a-7337-4252-89e8-615e034d715c@84.201.131.34:8443?security=reality&encryption=none&pbk=-LJRJGUIqM9CU88DZUdSAPAEijyWPSOKNeDuymL2HnI&headerType=none&fp=random&spx=%2F&allowinsecure=0&type=tcp&sni=disk.yandex.ru&sid=6fcb0c#21+%F0%9F%87%B7%F0%9F%87%BA
+vless://001a44d7-69e6-1f40-8d11-828fe2119621@5.188.142.9:443?security=reality&encryption=none&echfq=none&pbk=4CH3o5zOMcFNMbnwXnkAg0FFepmsc0QzhahXkUzb1ik&headerType=none&fp=qq&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=ads.x5.ru&sid=d8c6b58bcbb0c323#22+%F0%9F%87%B7%F0%9F%87%BA
+vless://64268ba0-eed6-4795-be9a-301cad52bc4e@51.250.69.165:8443?security=reality&encryption=none&pbk=X033QdzTcO4OGHS9L_GP7sYg4ADcJYqm538W79I34CM&headerType=none&fp=random&allowinsecure=0&type=tcp&sni=disk.yandex.ru&sid=0e2b73#23+%F0%9F%87%B7%F0%9F%87%BA
+vless://001a44d7-69e6-03e8-8d11-828fe2119621@5.188.142.9:443?security=reality&encryption=none&pbk=4CH3o5zOMcFNMbnwXnkAg0FFepmsc0QzhahXkUzb1ik&headerType=none&fp=qq&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=ads.x5.ru&sid=d8c6b58bcbb0c323#24+%F0%9F%87%B7%F0%9F%87%BA
+vless://103c830a-24b0-411c-b943-f1dd1a7dff00@217.16.31.38:8081?security=reality&encryption=none&pbk=Z84J2IelR9ch3k8VtlVhhs5ycBUlXA7wHBWcBrjqnAw&headerType=none&fp=qq&allowinsecure=0&type=tcp&sni=ads.x5.ru&sid=7dbf7d3233971d5c#25+%F0%9F%87%AB%F0%9F%87%B7
+vless://e928d85d-f223-0bb8-a1d2-a56e9fbd50e0@89.208.230.64:443?security=tls&encryption=none&alpn=h2,http/1.1&headerType=none&fp=qq&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=anti-vpn.ru#26+%F0%9F%87%AB%F0%9F%87%AE
+vless://e928d85d-f223-0bb8-a1d2-a56e9fbd50e0@89.208.231.198:443?security=tls&encryption=none&alpn=h2,http/1.1&headerType=none&fp=qq&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=anti-vpn.ru#27+%F0%9F%87%AB%F0%9F%87%AE
+vless://e928d85d-f223-0bb8-a1d2-a56e9fbd50e0@89.208.230.167:443?security=tls&encryption=none&headerType=none&fp=qq&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=anti-vpn.ru#28+%F0%9F%87%AB%F0%9F%87%AE
+vless://e928d85d-f223-0bb8-a1d2-a56e9fbd50e0@89.208.230.145:443?security=tls&encryption=none&alpn=h2,http/1.1&headerType=none&fp=qq&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=anti-vpn.ru#29+%F0%9F%87%AB%F0%9F%87%AE+все
+vless://a22f6494-f371-1f40-bad0-8df9594b8e45@5.188.141.186:443?security=reality&encryption=none&pbk=4CH3o5zOMcFNMbnwXnkAg0FFepmsc0QzhahXkUzb1ik&headerType=none&fp=qq&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=ads.x5.ru&sid=d8c6b58bcbb0c323#30+%F0%9F%87%B7%F0%9F%87%BA+я+устал
+vless://148c2937-fb6d-1f40-93a8-369b1fbc9791@5.188.141.186:443?security=reality&encryption=none&pbk=4CH3o5zOMcFNMbnwXnkAg0FFepmsc0QzhahXkUzb1ik&headerType=none&fp=qq&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=ads.x5.ru&sid=d8c6b58bcbb0c323#31+сколько можно блокировать
