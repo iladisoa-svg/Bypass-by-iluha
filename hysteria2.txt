@@ -3,15 +3,7 @@ hysteria2://github.com%2FAlvin9999-newpac%2Ffanqiang@178.18.147.66:29900?sni=www
 hysteria2://8b583292-c936-4723-a8c7-8adb8ecf5044@hsxjp.huasuan666.top:22154?insecure=1#%40vmessprotocol%20%20%20%DA%A9%D8%A7%D9%86%D9%81%DB%8C%DA%AF%20%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86
 hysteria2://dongtaiwang.com@51.159.111.32:5355?security=tls&insecure=1&sni=www.bing.com#%F0%9F%87%A8%F0%9F%87%B5%40FreakConfig
 hysteria2://45b46edb-679b-4ea5-befd-88c05bb94f80@de.eyucdn.xyz:2056?security=tls&insecure=1&sni=de.eyucdn.xyz#%F0%9F%87%A9%F0%9F%87%AA%40FreakConfig🦠
-vless://789d4f30-c31b-4762-8116-ed42574d5e85@cdn28.saloonak.ir:8443?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%87%A9%F0%9F%87%AA%40FreakConfig
-ss://789d4f30-c31b-4762-8116-ed42574d5e85@cdn28.saloonak.ir:8443?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%87%A9%F0%9F%87%AA%40FreakConfig
 hysteria2://79c4fe11-9787-406b-bf94-c1c1dbf59e28@77.223.214.193:31468?security=tls&insecure=1&sni=www.bing.com#%F0%9F%87%A9%F0%9F%87%AA%40FreakConfig
-vless://789d4f30-c31b-4762-8116-ed42574d5e85@cdn29.saloonak.ir:8443?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%87%A9%F0%9F%87%AA%40FreakConfig🦠
-ss://789d4f30-c31b-4762-8116-ed42574d5e85@cdn29.saloonak.ir:8443?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%87%A9%F0%9F%87%AA%40FreakConfig🦠
-hysteria2://Yet-Another-Public-Config-1@yapc-1.adamhayward.co.uk:36600?security=tls&obfs=salamander&obfs-password=Yet-Another-Public-Config-1&insecure=0&sni=YAPC-1.afshin.ir#%F0%9F%87%B3%F0%9F%87%B1%40FreakConfig
-vless://1a834111-ded2-4078-f4a6-6dfd32b346c5@rplcehdfy3.makingirangreatagain.com:2053?security=reality&encryption=none&pbk=bJGeXtIQr6IAeu46GXZZZR2UWcewi0MLa09Wp82PBD8&headerType=none&type=tcp&sni=rplcehdfy3.makingirangreatagain.com#%F0%9F%87%A9%F0%9F%87%AA%40FreakConfigvle
-ss://1a834111-ded2-4078-f4a6-6dfd32b346c5@rplcehdfy3.makingirangreatagain.com:2053?security=reality&encryption=none&pbk=bJGeXtIQr6IAeu46GXZZZR2UWcewi0MLa09Wp82PBD8&headerType=none&type=tcp&sni=rplcehdfy3.makingirangreatagain.com#%F0%9F%87%A9%F0%9F%87%AA%40FreakConfig
-ss://2b277eea-66b2-4f3a-b934-46225c1f5e6f@tgju.org:80?path=%2F%3Fed%3D2048&security=none&encryption=none&host=16.VtNEt.InFO&type=ws#%F0%9F%87%A9%F0%9F%87%AA%40FreakConfig🦠
 hysteria2://b4bd0613-ff7c-4f2f-954d-185915e6ddad@181.214.99.162:35000?sni=api.kermanshahi.org&insecure=1&obfs=salamander#DE
 hysteria2://b4bd0613-ff7c-4f2f-954d-185915e6ddad@77.90.41.197:35000?sni=api.kermanshahi.org&insecure=1&obfs=salamander#DE
 hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@vpn-jp-016.ervpn.world:443?sni=vpn-jp-016.ervpn.world&insecure=1#JP
@@ -3044,7 +3036,7 @@ hysteria2://a2c3fe27-2df2-4acb-92a1-2c56ef6ca896@kaikaixinxin-ca.legeth.xyz:443?
 hysteria2://d5905353-0efe-47a0-90e8-276991af4c87@ae.1010520.xyz:1001?security=tls&insecure=1&sni=ae.1010520.xyz#🆔wxgmrjdcc%20🔒%20HY2-UDP-N/A%20❔%20XX%20down
 hysteria2://461e8622-46fb-40ee-9d4b-ceaed42161e4@37.114.60.196:40443/?insecure=1&sni=dxobg4azmk.gafnode.sbs#DE-MmdV2
 hysteria2://ab602e02-624b-44f0-a51b-25ed53f70048@us.eaxeg.be:44110?hiddify=1&obfs=salamander&obfs-password=ecm1G2JfoavRd&sni=us.eaxeg.be#us.eaxeg.be%20Hysteria2
-hysteria2://tYVaOArhcupVmnYggzlDZOuxVceGOSUgpjNhrVkFXJpxmJWFoodlWDwYuFSLgbcoREqRoxEajKiNzRHLIUxWlMtmNvalzYHNKyHS@duckduckv.online:443?sni=duckduckv.online&alpn=h3&obfs=salamander&obfs-password=D r+ &#4e_XVql"E@u@!Wr 2 q;Q=*6T)W&open=1#@CHANGE_IP1
+hysteria2://tYVaOArhcupVmnYggzlDZOuxVceGOSUgpjNhrVkFXJpxmJWFoodlWDwYuFSLgbcoREqRoxEajKiNzRHLIUxWlMtmNvalzYHNKyHS@duckduckv.online:443?sni=duckduckv.online&alpn=h3&obfs=salamander&obfs-password=D r+ &#4e _ XVql"E@u@!Wr 2 q;Q=*6T)W&open=1#@CHANGE_IP1
 hysteria2://d376650d-76ee-4233-9c20-dd859f945bb4@45.142.113.238:40443/?sni=speedtest.realityforus.com&insecure=0#%F0%9F%87%A9%F0%9F%87%AAHysteria2%2B%40Surfboardv2ray
 hysteria2://dd6ada88-d4bd-4b07-9eb2-0c713c88874c@c6.mysell.store:34882?hiddify=1&obfs=salamander&obfs-password=Ł@B[fe3&sni=ramzinex.com&insecure=1#Ipv6%20Hysteria2
 hysteria2://ee1f7400-b7cb-4776-9e85-497965dfde00@dailyshop.pharmaweb.info:8080?peer=buildcenter.pharmaweb.info&insecure=0&sni=buildcenter.pharmaweb.info&alpn=h3#temp500-singbox_hysteria2
@@ -3407,7 +3399,7 @@ hysteria2://6286105c-fb6d-11ef-be96-f23c93136cb3@227fd503-t4ssg0-t5vo4i-4550.la.
 hysteria2://zdUcTseVJy@91.99.225.11:443?insecure=1&obfs=salamander&obfs-password=Jsbdksj%40V2RayyNGvpn%24Miracle&sni=refersion.com#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%20%F0%9F%93%A1%20%F0%9F%87%A9%F0%9F%87%AADE%20%F0%9F%A7%AD%209.3MB%2Fs
 hysteria2://dongtaiwang.com@208.87.243.187:22222?insecure=1&sni=www.bing.com#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%20%F0%9F%93%A1%20%F0%9F%87%BA%F0%9F%87%B8US%20%F0%9F%A7%AD%203.5MB%2Fs
 hysteria2://45cc0b3a-0adb-4dcc-8f54-4ba3d2cc274e@185.126.255.78:37058?sni=dxobg4azmk.gafnode.sbs&insecure=0#Kyiv-GetANode
-hysteria2://KTK7EAVqhmH4AHDaB3OGo7yy0u3xiBV3sk4dmLXdwpxjYS9ifVSotkGOQRBl3skwPgS7jhKWjNyRM7FkglbsmW4cJoKpDQoqIojc@duckduckv.online:443?sni=duckduckv.online&alpn=h3&obfs=salamander&obfs-password=D r+ &#4e_XVql"E@u@!Wr 2 q;Q=*6T)W&open=1#HYS-Join-@Change_IP1
+hysteria2://KTK7EAVqhmH4AHDaB3OGo7yy0u3xiBV3sk4dmLXdwpxjYS9ifVSotkGOQRBl3skwPgS7jhKWjNyRM7FkglbsmW4cJoKpDQoqIojc@duckduckv.online:443?sni=duckduckv.online&alpn=h3&obfs=salamander&obfs-password=D r+ &#4e _ XVql"E@u@!Wr 2 q;Q=*6T)W&open=1#HYS-Join-@Change_IP1
 hysteria2://DnMOT5C2CP@162.55.223.25:2083?obfs=salamander&obfs-password=Vk%40l%40b%40shV&insecure=1#Hys2%2BTLS%2BECH
 hysteria2://DnMOT5C2CP@162.55.223.25:2096?obfs=salamander&obfs-password=Vk%40l%40b%40shV&insecure=1#Hys2%2BECH%2BPQS
 hysteria2://af9e1b9f-3ee6-4184-a330-bb110419687a@us.555199.xyz:5000/?insecure=0&sni=sg.555199.xyz&mport=5000-12000#%E8%81%94%E9%80%9A%E7%94%A8%E7%BE%8E%E5%9B%BD2
@@ -4134,7 +4126,7 @@ hysteria2://b4bd0613-ff7c-4f2f-954d-185915e6ddad@181.214.99.162:35000?security=t
 hysteria2://b4bd0613-ff7c-4f2f-954d-185915e6ddad@5.175.249.174:35000?security=tls&obfs=salamander&obfs-password=%40JavidnamanIran-Javid-SHAH-KingRezaPahlavi&insecure=1&sni=api.kermanshahi.org#%F0%9F%94%B0%20%7C%20%40Eag1e_YT%E3%80%8E%F0%9F%87%A9%F0%9F%87%AA%E2%81%B6%E2%81%B9%E3%80%8F
 hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@vpn-jp-016.ervpn.world:443?sni=vpn-jp-016.ervpn.world#1359
 hysteria2://3286b74d-a633-401f-8e22-6e8e61c5f1d9@45.192.195.52:5555?sni=45.192.195.52#1862
-hysteria2://rstnnl%3AOdAee0iXQALGJNhMVDnhA79WZoyqMse6@yespaintstudio.rav-kraski.ru:2026?sni=yespaintstudio.rav-kraski.ru&obfs=salamander&obfs-password=Ss YQ.z݃1-vOP[#2507
+hysteria2://rstnnl%3AOdAee0iXQALGJNhMVDnhA79WZoyqMse6@yespaintstudio.rav-kraski.ru:2026?sni=yespaintstudio.rav-kraski.ru&obfs=salamander&obfs-password=Ss YQ.z݃1-vOP[#2507
 hysteria2://b4bd0613-ff7c-4f2f-954d-185915e6ddad@77.90.41.197:35000?sni=api.kermanshahi.org&obfs=salamander&obfs-password=%40JavidnamanIran-Javid-SHAH-KingRezaPahlavi&insecure=0#%F0%9F%94%B7%F0%9F%86%94%40v2ray_configs_pool%F0%9F%94%B7
 hysteria2://Yet-Another-Public-Config-1@206.71.158.37:35000?security=tls&obfs=salamander&obfs-password=Yet-Another-Public-Config-1&insecure=1&sni=YAPC-1.afshin.ir#🇳🇱@FreakConfig
 hysteria2://Yet-Another-Public-Config-1@yapc-1.adamhayward.co.uk:35000?security=tls&obfs=salamander&obfs-password=Yet-Another-Public-Config-1&insecure=0&sni=YAPC-1.afshin.ir#@IRAN_V2RAY1
@@ -5241,7 +5233,7 @@ hysteria2://linux.do@[2a01:4f9:4b:f378::1]:13599?security=tls&insecure=1&sni=www
 hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@vpn-jp-005.ervpn.world:443?insecure=1&sni=vpn-jp-005.ervpn.world#%F0%9F%87%AF%F0%9F%87%B5%20%E6%9C%BA%E5%9C%BA%E6%8E%A8%E8%8D%90%3Adafei.de%20%E6%97%A5%E6%9C%AC%2014%20t.me%2Frjsxrd
 hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@vpn-jp-016.ervpn.world:443?insecure=1&sni=vpn-jp-016.ervpn.world#%F0%9F%87%AF%F0%9F%87%B5%20%E6%9C%BA%E5%9C%BA%E6%8E%A8%E8%8D%90%3Adafei.de%20%E6%97%A5%E6%9C%AC%2005%20t.me%2Frjsxrd
 hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@vpn-vn-001.ervpn.world:443?insecure=1&sni=vpn-vn-001.ervpn.world#%F0%9F%87%BB%F0%9F%87%B3%20%E6%9C%BA%E5%9C%BA%E6%8E%A8%E8%8D%90%3Adafei.de%20%E8%B6%8A%E5%8D%97%2001%20t.me%2Frjsxrd
-hysteria2://rstnnl%3AOdAee0iXQALGJNhMVDnhA79WZoyqMse6@yespaintstudio.rav-kraski.ru:2026?obfs=salamander&obfs-password=Ss YQ.z݃1-vOP[&sni=yespaintstudio.rav-kraski.ru#%F0%9F%87%B8%F0%9F%87%AA%20%E6%9C%BA%E5%9C%BA%E6%8E%A8%E8%8D%90%3Adafei.de%20%E7%91%9E%E5%85%B8%2001%20t.me%2Frjsxrd
+hysteria2://rstnnl%3AOdAee0iXQALGJNhMVDnhA79WZoyqMse6@yespaintstudio.rav-kraski.ru:2026?obfs=salamander&obfs-password=Ss YQ.z݃1-vOP[&sni=yespaintstudio.rav-kraski.ru#%F0%9F%87%B8%F0%9F%87%AA%20%E6%9C%BA%E5%9C%BA%E6%8E%A8%E8%8D%90%3Adafei.de%20%E7%91%9E%E5%85%B8%2001%20t.me%2Frjsxrd
 hysteria2://github.com%2FAlvin9999-newpac%2Ffanqiang@178.18.147.66:29900?sni=www.microsoft.com&insecure=1#DE
 hysteria2://88e7924f-d580-4779-ada8-cb3a457c7528@fre.guren1.me:8443?sni=python.org&insecure=1#HK
 hysteria2://8e8f0173-6426-4fed-94f6-580847c744f1@103.197.71.119:50000?sni=www.hoyoverse.com&insecure=1#HK
@@ -5324,11 +5316,11 @@ hysteria2://4d092122-268a-4a1a-b23f-83931c5abc3a@37.114.49.38:2056/?insecure=1&s
 hysteria2://123456789StrongPass@144.31.224.14:443?insecure=1#0552
 hysteria2://3286b74d-a633-401f-8e22-6e8e61c5f1d9@45.192.195.52:5555/?insecure=1#0932
 hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@vpn-jp-016.ervpn.world:443?sni=vpn-jp-016.ervpn.world#1340
-hysteria2://rstnnl%3AOdAee0iXQALGJNhMVDnhA79WZoyqMse6@yespaintstudio.rav-kraski.ru:2026?obfs=salamander&obfs-password=Ss YQ.z݃1-vOP[&sni=yespaintstudio.rav-kraski.ru#1399
+hysteria2://rstnnl%3AOdAee0iXQALGJNhMVDnhA79WZoyqMse6@yespaintstudio.rav-kraski.ru:2026?obfs=salamander&obfs-password=Ss YQ.z݃1-vOP[&sni=yespaintstudio.rav-kraski.ru#1399
 hysteria2://3286b74d-a633-401f-8e22-6e8e61c5f1d9@45.192.195.52:5555/?insecure=1&sni=45.192.195.52#1403
 hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@vpn-jp-016.ervpn.world:443/?insecure=1&sni=vpn-jp-016.ervpn.world#1484
 hysteria2://4d092122-268a-4a1a-b23f-83931c5abc3a@37.114.49.38:2056?sni=flkf.mangshe.xyz#1609
-hysteria2://rstnnl%3AOdAee0iXQALGJNhMVDnhA79WZoyqMse6@yespaintstudio.rav-kraski.ru:2026?sni=yespaintstudio.rav-kraski.ru&obfs=salamander&obfs-password=Ss YQ.z݃1-vOP[#2138
+hysteria2://rstnnl%3AOdAee0iXQALGJNhMVDnhA79WZoyqMse6@yespaintstudio.rav-kraski.ru:2026?sni=yespaintstudio.rav-kraski.ru&obfs=salamander&obfs-password=Ss YQ.z݃1-vOP[#2138
 hysteria2://4d092122-268a-4a1a-b23f-83931c5abc3a@37.114.49.38:2056/?insecure=1#2259
 hysteria2://123456789StrongPass@144.31.224.14:443?sni=www.cloudflare.com#2349
 hysteria2://3286b74d-a633-401f-8e22-6e8e61c5f1d9@45.192.195.52:5555?sni=45.192.195.52#2569
@@ -5386,7 +5378,7 @@ hysteria2://dongtaiwang.com@163.172.113.118:40022/?insecure=1&sni=www.microsoft.
 hysteria2://dongtaiwang.com@62.210.124.146:22000/?insecure=1&sni=www.microsoft.com#%F0%9F%8F%B3%EF%B8%8F%20ShatakVPN%20977822%20t.me%2Frjsxrd
 hysteria2://4d092122-268a-4a1a-b23f-83931c5abc3a@37.114.49.38:2056?sni=flkf.mangshe.xyz#1047
 hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@vpn-jp-016.ervpn.world:443?sni=vpn-jp-016.ervpn.world#1133
-hysteria2://rstnnl%3AOdAee0iXQALGJNhMVDnhA79WZoyqMse6@yespaintstudio.rav-kraski.ru:2026?obfs=salamander&obfs-password=Ss YQ.z݃1-vOP[&sni=yespaintstudio.rav-kraski.ru#1824
+hysteria2://rstnnl%3AOdAee0iXQALGJNhMVDnhA79WZoyqMse6@yespaintstudio.rav-kraski.ru:2026?obfs=salamander&obfs-password=Ss YQ.z݃1-vOP[&sni=yespaintstudio.rav-kraski.ru#1824
 hysteria2://hysteria2_lane_gvhjqqhs5%3Afa9BG0K2anbTthiGCpus2Dq82LUuPYUp@144.31.134.98:1935?sni=nl1.h.smartaisupport.ru#2001
 hysteria2://3286b74d-a633-401f-8e22-6e8e61c5f1d9@45.192.195.52:5555?sni=45.192.195.52#2636
 hysteria2://123456789StrongPass@144.31.224.14:443?sni=www.cloudflare.com#3024
@@ -8278,7 +8270,7 @@ hysteria2://a2c3fe27-2df2-4acb-92a1-2c56ef6ca896@kaikaixinxin-ca.legeth.xyz:443?
 hysteria2://d5905353-0efe-47a0-90e8-276991af4c87@ae.1010520.xyz:1001?security=tls&insecure=1&sni=ae.1010520.xyz#🆔wxgmrjdcc%20🔒%20HY2-UDP-N/A%20❔%20XX%20down%20t.me%2Frjsxrd
 hysteria2://461e8622-46fb-40ee-9d4b-ceaed42161e4@37.114.60.196:40443/?insecure=1&sni=dxobg4azmk.gafnode.sbs#DE-MmdV2%20t.me%2Frjsxrd
 hysteria2://ab602e02-624b-44f0-a51b-25ed53f70048@us.eaxeg.be:44110?hiddify=1&obfs=salamander&obfs-password=ecm1G2JfoavRd&sni=us.eaxeg.be#us.eaxeg.be%20Hysteria2%20t.me%2Frjsxrd
-hysteria2://tYVaOArhcupVmnYggzlDZOuxVceGOSUgpjNhrVkFXJpxmJWFoodlWDwYuFSLgbcoREqRoxEajKiNzRHLIUxWlMtmNvalzYHNKyHS@duckduckv.online:443?sni=duckduckv.online&alpn=h3&obfs=salamander&obfs-password=D r+ &#4e_XVql"E@u@!Wr 2 q;Q=*6T)W&open=1#@CHANGE_IP1%20t.me%2Frjsxrd
+hysteria2://tYVaOArhcupVmnYggzlDZOuxVceGOSUgpjNhrVkFXJpxmJWFoodlWDwYuFSLgbcoREqRoxEajKiNzRHLIUxWlMtmNvalzYHNKyHS@duckduckv.online:443?sni=duckduckv.online&alpn=h3&obfs=salamander&obfs-password=D r+ &#4e _ XVql"E@u@!Wr 2 q;Q=*6T)W&open=1#@CHANGE_IP1%20t.me%2Frjsxrd
 hysteria2://d376650d-76ee-4233-9c20-dd859f945bb4@45.142.113.238:40443/?sni=speedtest.realityforus.com&insecure=0#%F0%9F%87%A9%F0%9F%87%AAHysteria2%2B%40Surfboardv2ray%20t.me%2Frjsxrd
 hysteria2://dd6ada88-d4bd-4b07-9eb2-0c713c88874c@c6.mysell.store:34882?hiddify=1&obfs=salamander&obfs-password=Ł@B[fe3&sni=ramzinex.com&insecure=1#Ipv6%20Hysteria2%20t.me%2Frjsxrd
 hysteria2://ee1f7400-b7cb-4776-9e85-497965dfde00@dailyshop.pharmaweb.info:8080?peer=buildcenter.pharmaweb.info&insecure=0&sni=buildcenter.pharmaweb.info&alpn=h3#temp500-singbox_hysteria2%20t.me%2Frjsxrd
@@ -8605,7 +8597,7 @@ hysteria2://hrxvl5n08w@54.169.235.155:23943/?insecure=1#@kingo_team%20t.me%2Frjs
 hysteria2://V9TUQQMN40@23.27.240.33:23161/?insecure=1#@kingo_team%20t.me%2Frjsxrd
 hysteria2://github.com%2FAlvin9999-newpac%2Ffanqiang@83.243.86.103:12855?insecure=1&sni=www.microsoft.com#@kingo_team%20t.me%2Frjsxrd
 hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@vpn-vn-001.ervpn.world:443?insecure=1&sni=vpn-vn-001.ervpn.world#@kingo_team%20t.me%2Frjsxrd
-hysteria2://rstnnl%3AOdAee0iXQALGJNhMVDnhA79WZoyqMse6@yespaintstudio.rav-kraski.ru:2026?obfs=salamander&obfs-password=Ss YQ.z݃1-vOP[&sni=yespaintstudio.rav-kraski.ru#@kingo_team%20t.me%2Frjsxrd
+hysteria2://rstnnl%3AOdAee0iXQALGJNhMVDnhA79WZoyqMse6@yespaintstudio.rav-kraski.ru:2026?obfs=salamander&obfs-password=Ss YQ.z݃1-vOP[&sni=yespaintstudio.rav-kraski.ru#@kingo_team%20t.me%2Frjsxrd
 hysteria2://3286b74d-a633-401f-8e22-6e8e61c5f1d9@45.192.195.52:5555?insecure=1#@kingo_team%20t.me%2Frjsxrd
 hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@vpn-jp-016.ervpn.world:443?insecure=1&sni=vpn-jp-016.ervpn.world#@kingo_team%20t.me%2Frjsxrd
 hysteria2://dongtaiwang.com@163.172.113.118:40022?insecure=1&sni=www.microsoft.com#@kingo_team%20t.me%2Frjsxrd
@@ -8622,7 +8614,7 @@ hysteria2://6286105c-fb6d-11ef-be96-f23c93136cb3@227fd503-t4ssg0-t5vo4i-4550.la.
 hysteria2://zdUcTseVJy@91.99.225.11:443?insecure=1&obfs=salamander&obfs-password=Jsbdksj%40V2RayyNGvpn%24Miracle&sni=refersion.com#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%20%F0%9F%93%A1%20%F0%9F%87%A9%F0%9F%87%AADE%20%F0%9F%A7%AD%209.3MB%2Fs%20t.me%2Frjsxrd
 hysteria2://dongtaiwang.com@208.87.243.187:22222?insecure=1&sni=www.bing.com#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%20%F0%9F%93%A1%20%F0%9F%87%BA%F0%9F%87%B8US%20%F0%9F%A7%AD%203.5MB%2Fs%20t.me%2Frjsxrd
 hysteria2://45cc0b3a-0adb-4dcc-8f54-4ba3d2cc274e@185.126.255.78:37058?sni=dxobg4azmk.gafnode.sbs&insecure=0#Kyiv-GetANode%20t.me%2Frjsxrd
-hysteria2://KTK7EAVqhmH4AHDaB3OGo7yy0u3xiBV3sk4dmLXdwpxjYS9ifVSotkGOQRBl3skwPgS7jhKWjNyRM7FkglbsmW4cJoKpDQoqIojc@duckduckv.online:443?sni=duckduckv.online&alpn=h3&obfs=salamander&obfs-password=D r+ &#4e_XVql"E@u@!Wr 2 q;Q=*6T)W&open=1#HYS-Join-@Change_IP1%20t.me%2Frjsxrd
+hysteria2://KTK7EAVqhmH4AHDaB3OGo7yy0u3xiBV3sk4dmLXdwpxjYS9ifVSotkGOQRBl3skwPgS7jhKWjNyRM7FkglbsmW4cJoKpDQoqIojc@duckduckv.online:443?sni=duckduckv.online&alpn=h3&obfs=salamander&obfs-password=D r+ &#4e _ XVql"E@u@!Wr 2 q;Q=*6T)W&open=1#HYS-Join-@Change_IP1%20t.me%2Frjsxrd
 hysteria2://af9e1b9f-3ee6-4184-a330-bb110419687a@us.555199.xyz:5000/?insecure=0&sni=sg.555199.xyz&mport=5000-12000#%E8%81%94%E9%80%9A%E7%94%A8%E7%BE%8E%E5%9B%BD2%20t.me%2Frjsxrd
 hysteria2://3286b74d-a633-401f-8e22-6e8e61c5f1d9@45.192.195.52:5555?insecure=1#%F0%9F%87%AD%F0%9F%87%B0%20%E6%9C%BA%E5%9C%BA%E6%8E%A8%E8%8D%90%3Adafei.de%20%E9%A6%99%E6%B8%AF%2005%20t.me%2Frjsxrd
 hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@vpn-sg-002.ervpn.world:443?insecure=1&sni=vpn-sg-002.ervpn.world#%F0%9F%87%B8%F0%9F%87%AC%20%E6%9C%BA%E5%9C%BA%E6%8E%A8%E8%8D%90%3Adafei.de%20%E6%96%B0%E5%8A%A0%E5%9D%A1%2001%20t.me%2Frjsxrd
@@ -9241,7 +9233,7 @@ hysteria2://hysteria2_lane_gvhjqqhs5%3Afa9BG0K2anbTthiGCpus2Dq82LUuPYUp@144.31.1
 hysteria2://hysteria2_lane_gvhjqqhs5%3Afa9BG0K2anbTthiGCpus2Dq82LUuPYUp@144.31.134.98:1935?sni=nl1.h.smartaisupport.ru#%F0%9F%87%B3%F0%9F%87%B1%20Niderlandy%2C%20Amsterdam%20%28Amsterdam-Centrum%29%20[🏴BL]%20t.me%2Frjsxrd
 hysteria2://hysteria2_lane_gvhjqqhs5:fa9BG0K2anbTthiGCpus2Dq82LUuPYUp@144.31.134.98:1935?security=tls&allowinsecure=1&sni=nl1.h.smartaisupport.ru#%F0%9F%87%B3%F0%9F%87%B1%20Niderlandy%2C%20Amsterdam%20%28Amsterdam-Centrum%29%20[🏴BL]%20t.me%2Frjsxrd
 hysteria2://github.com%2FAlvin9999-newpac%2Ffanqiang@178.18.147.66:29900?insecure=1&sni=www.microsoft.com#🇧🇸%20Eschkeriya%20%7C%20🔐%20[🏴BL]%20t.me%2Frjsxrd
-hysteria2://rstnnl:OdAee0iXQALGJNhMVDnhA79WZoyqMse6@yespaintstudio.rav-kraski.ru:2026?insecure=0&sni=yespaintstudio.rav-kraski.ru&obfs=salamander&obfs-password=Ss YQ.z݃1-vOP[&pinSHA256=56:78:71:F7:34:04:D7:0C:A2:42:63:83:9B:F8:F9:20:73:83:E3:34:80:2B:33:E8:F9:35:3A:01:B9:50:FD:BE#%F0%9F%87%B8%F0%9F%87%AA%20%D0%A8%D0%B2%D0%B5%D1%86%D0%B8%D1%8F%20%7C%20%D1%82%D0%B3%D0%BA%3A%20%40rostunnel%20t.me%2Frjsxrd
+hysteria2://rstnnl:OdAee0iXQALGJNhMVDnhA79WZoyqMse6@yespaintstudio.rav-kraski.ru:2026?insecure=0&sni=yespaintstudio.rav-kraski.ru&obfs=salamander&obfs-password=Ss YQ.z݃1-vOP[&pinSHA256=56:78:71:F7:34:04:D7:0C:A2:42:63:83:9B:F8:F9:20:73:83:E3:34:80:2B:33:E8:F9:35:3A:01:B9:50:FD:BE#%F0%9F%87%B8%F0%9F%87%AA%20%D0%A8%D0%B2%D0%B5%D1%86%D0%B8%D1%8F%20%7C%20%D1%82%D0%B3%D0%BA%3A%20%40rostunnel%20t.me%2Frjsxrd
 hysteria2://rstnnl:hrQVPjgUr9HTgKyTj0oFCr6j4EpRzXTQ@reddeadfan.rd-team.ru:2026?insecure=1&sni=reddeadfan.rd-team.ru&obfs=salamander&obfs-password=FxZylbqClUqVqAs2nezW9kPyFb2edZ2&pinSHA256=10:2B:BF:96:86:B6:A5:23:6E:34:4D:EE:79:8E:FF:D5:95:A9:0D:24:E7:2D:73:8C:28:1C:68:A2:BE:55:5B:6F#%F0%9F%87%A9%F0%9F%87%AA%20%D0%93%D0%B5%D1%80%D0%BC%D0%B0%D0%BD%D0%B8%D1%8F%20%7C%20%D1%82%D0%B3%D0%BA%3A%20%40rostunnel%20t.me%2Frjsxrd
 hysteria2://rstnnl:XmFNUbpdnnIy7df1YtfLyzVgzt8U9GUv@musicclips.videos.ru:8443?insecure=1&sni=musicclips.videos.ru&obfs=salamander&obfs-password=hH0l2Acqz3RtodoSCNCpNJqDSZtp4Qw&pinSHA256=50:91:73:98:E7:41:C9:60:B8:7F:68:92:C4:39:EF:36:00:30:02:67:98:D8:DF:40:31:80:AD:B6:19:58:E0:47#%F0%9F%87%AB%F0%9F%87%AE%20%D0%A4%D0%B8%D0%BD%D0%BB%D1%8F%D0%BD%D0%B4%D0%B8%D1%8F%20%7C%20%D1%82%D0%B3%D0%BA%3A%20%40rostunnel%20t.me%2Frjsxrd
 hysteria2://rstnnl:7ltZBmta4ahLenTIoywBy3R1Z1PV7ZGf@nrealistic.nn-foto.ru:8932?insecure=1&sni=nrealistic.nn-foto.ru&obfs=salamander&obfs-password=
@@ -9332,7 +9324,7 @@ hysteria2://123456789StrongPass@144.31.224.14:443?security=tls&sni=www.cloudflar
 hysteria2://123456789StrongPass@144.31.224.14:443?upmbps=10&downmbps=50&security=tls&sni=eh.%40solidtrust.com&allowInsecure=true#🇦🇲
 hysteria2://SeilceBolshoyPenis@37.18.14.235:143/?insecure=1&sni=max.ru#186.%20%F0%9F%87%B7%F0%9F%87%BA%20HYSTERIA2%20%7C%20CIDR%3A%20%3F%20%7C%20TG%3A%20%40wlrustg%20t.me%2Frjsxrd
 hysteria2://fb211338854624f161f1Ea3D9584E2DEFE7c10A3@sde.dbp.qzz.io:8443?insecure=1&sni=dbp.qzz.io#%F0%9F%87%A7%F0%9F%87%BE%20%5BHY%5D%20%D0%91%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C%20%236010%20%7C%20%D0%A0%D0%BE%D1%81%D0%A2%D1%83%D0%BD%D0%BD%D0%B5%D0%BB%D1%8C%20t.me%2Frjsxrd
-hysteria2://rstnnl%3AOdAee0iXQALGJNhMVDnhA79WZoyqMse6@yespaintstudio.rav-kraski.ru:2026?obfs=salamander&obfs-password=Ss YQ.z݃1-vOP[&sni=yespaintstudio.rav-kraski.ru#%F0%9F%87%B7%F0%9F%87%BA%20%5BHY%5D%20%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F%20%2310822%20%7C%20%D0%A0%D0%BE%D1%81%D0%A2%D1%83%D0%BD%D0%BD%D0%B5%D0%BB%D1%8C%20t.me%2Frjsxrd
+hysteria2://rstnnl%3AOdAee0iXQALGJNhMVDnhA79WZoyqMse6@yespaintstudio.rav-kraski.ru:2026?obfs=salamander&obfs-password=Ss YQ.z݃1-vOP[&sni=yespaintstudio.rav-kraski.ru#%F0%9F%87%B7%F0%9F%87%BA%20%5BHY%5D%20%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F%20%2310822%20%7C%20%D0%A0%D0%BE%D1%81%D0%A2%D1%83%D0%BD%D0%BD%D0%B5%D0%BB%D1%8C%20t.me%2Frjsxrd
 hysteria2://123456789StrongPass@144.31.224.14:443/?insecure=1&sni=www.cloudflare.com#%F0%9F%87%A8%F0%9F%87%AD%20%5BHY%5D%20%D0%A8%D0%B2%D0%B5%D0%B9%D1%86%D0%B0%D1%80%D0%B8%D1%8F%20%236037%20%7C%20%D0%A0%D0%BE%D1%81%D0%A2%D1%83%D0%BD%D0%BD%D0%B5%D0%BB%D1%8C%20t.me%2Frjsxrd
 hysteria2://hysteria2_lane_gvhjqqhs5%3Afa9BG0K2anbTthiGCpus2Dq82LUuPYUp@144.31.134.98:1935?insecure=1&sni=nl1.h.smartaisupport.ru#%F0%9F%87%B7%F0%9F%87%B4%20%5BHY%5D%20%D0%A0%D1%83%D0%BC%D1%8B%D0%BD%D0%B8%D1%8F%20%2312918%20%7C%20%D0%A0%D0%BE%D1%81%D0%A2%D1%83%D0%BD%D0%BD%D0%B5%D0%BB%D1%8C%20t.me%2Frjsxrd
 hysteria2://4d092122-268a-4a1a-b23f-83931c5abc3a@37.114.49.38:2056/?insecure=1#%F0%9F%87%AD%F0%9F%87%B7%20%5BHY%5D%20%D0%A5%D0%BE%D1%80%D0%B2%D0%B0%D1%82%D0%B8%D1%8F%20%236017%20%7C%20%D0%A0%D0%BE%D1%81%D0%A2%D1%83%D0%BD%D0%BD%D0%B5%D0%BB%D1%8C%20t.me%2Frjsxrd
