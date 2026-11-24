@@ -1,21 +1,17 @@
 B=/opt/zapret2-domru
-for name in "1_zy_multisplit" "2_zy_hostfakesplit" "3_zy_seqovl"; do
-  sudo pkill -f "$B/bin/nfqws2" 2>/dev/null
-  case "$name" in
-    1_zy_multisplit)
-      ARGS="--lua-desync=fake:blob=fake_default_tls:ip_id=zero:tcp_ts=-600000:repeats=6:tls_mod=rnd,dupsid,sni=www.google.com --lua-desync=multisplit:pos=1,midsld:ip_id=zero" ;;
-    2_zy_hostfakesplit)
-      ARGS="--lua-desync=fake:blob=fake_default_tls:tcp_ts=-600000:repeats=6:tls_mod=rnd,dupsid,sni=www.google.com --lua-desync=hostfakesplit:host=www.google.com:disorder_after:tcp_ts=-600000" ;;
-    3_zy_seqovl)
-      ARGS="--lua-desync=fake:blob=tls_google:tcp_ts=-600000:repeats=8 --lua-desync=multisplit:pos=1:seqovl=681:seqovl_pattern=tls_google" ;;
-  esac
-  sudo "$B/bin/nfqws2" --daemon --qnum=200 --fwmark=0x40000000 \
-    --lua-init="@$B/lua/zapret-lib.lua" --lua-init="@$B/lua/zapret-antidpi.lua" --lua-init="@$B/lua/zy-video-window.lua" \
-    --blob="tls_google:@$B/blobs/tls_clienthello_www_google_com.bin" \
-    --filter-tcp=443 --filter-l7=unknown --out-range=-n3 --lua-desync=zy_video_window:syn:always --new \
-    --filter-tcp=443 --hostlist-domains=googlevideo.com --out-range=-d10 --lua-desync=zy_video_window:resetafter=0 --payload=tls_client_hello $ARGS
-  sleep 0.4
-  printf "%-22s -> " "$name"
-  curl -4 -I -sS -m 5 https://rr1---sn-aj5go5-53.googlevideo.com/generate_204 2>&1 | grep -E 'HTTP/|curl:' | head -n 1
-done
-sudo pkill -f "$B/bin/nfqws2" 2>/dev/null; sudo systemctl start zapret2-domru
+sudo nft add chain inet zapret2_domru prerouting '{ type filter hook prerouting priority filter; policy accept; }' 2>/dev/null
+sudo nft add rule inet zapret2_domru prerouting iifname "wlp0s20f3" tcp sport 443 ct reply packets 1-6 queue num 200 bypass 2>/dev/null
+sudo sysctl -w net.ipv4.tcp_window_scaling=0 >/dev/null
+
+sudo pkill -f "$B/bin/nfqws2" 2>/dev/null
+sudo "$B/bin/nfqws2" --daemon --qnum=200 --fwmark=0x40000000 \
+  --lua-init="@$B/lua/zapret-lib.lua" --lua-init="@$B/lua/zapret-antidpi.lua" \
+  --filter-tcp=443 --hostlist-domains=googlevideo.com --out-range=-d10 \
+  --lua-desync=wssize:wsize=1:scale=0 \
+  --payload=tls_client_hello \
+  --lua-desync=fake:blob=fake_default_tls:ip_id=zero:tcp_ts=-600000:repeats=11:tls_mod=rnd,dupsid,sni=www.google.com \
+  --lua-desync=multisplit:pos=1,midsld:ip_id=zero
+
+sleep 0.5
+curl -4 -I -sS -m 5 https://rr1---sn-aj5go5-53.googlevideo.com/generate_204 2>&1 | head -n 2
+sudo sysctl -w net.ipv4.tcp_window_scaling=1 >/dev/null
