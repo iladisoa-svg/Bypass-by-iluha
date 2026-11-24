@@ -1,2 +1,2 @@
-sudo ./install_bin.sh
-sudo BATCH=1 DOMAINS="rr1---sn-aj5go5-53.googlevideo.com" IPVS=4 ENABLE_HTTP=0 ENABLE_HTTPS_TLS12=0 ENABLE_HTTPS_TLS13=1 ENABLE_HTTP3=0 SCANLEVEL=quick ./blockcheck2.sh | tee /tmp/bc2.log
+sudo systemctl start zapret2-domru
+sudo nft insert rule inet zapret2_domru postrouting oifname "wlp0s20f3" udp dport 443 reject with icmpx port-unreachable
