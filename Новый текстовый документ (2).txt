@@ -1,17 +1,5 @@
-B=/opt/zapret2-domru
-sudo nft add chain inet zapret2_domru prerouting '{ type filter hook prerouting priority filter; policy accept; }' 2>/dev/null
-sudo nft add rule inet zapret2_domru prerouting iifname "wlp0s20f3" tcp sport 443 ct reply packets 1-6 queue num 200 bypass 2>/dev/null
-sudo sysctl -w net.ipv4.tcp_window_scaling=0 >/dev/null
-
-sudo pkill -f "$B/bin/nfqws2" 2>/dev/null
-sudo "$B/bin/nfqws2" --daemon --qnum=200 --fwmark=0x40000000 \
-  --lua-init="@$B/lua/zapret-lib.lua" --lua-init="@$B/lua/zapret-antidpi.lua" \
-  --filter-tcp=443 --hostlist-domains=googlevideo.com --out-range=-d10 \
-  --lua-desync=wssize:wsize=1:scale=0 \
-  --payload=tls_client_hello \
-  --lua-desync=fake:blob=fake_default_tls:ip_id=zero:tcp_ts=-600000:repeats=11:tls_mod=rnd,dupsid,sni=www.google.com \
-  --lua-desync=multisplit:pos=1,midsld:ip_id=zero
-
-sleep 0.5
-curl -4 -I -sS -m 5 https://rr1---sn-aj5go5-53.googlevideo.com/generate_204 2>&1 | head -n 2
-sudo sysctl -w net.ipv4.tcp_window_scaling=1 >/dev/null
+sudo systemctl stop zapret2-domru
+mkdir -p /tmp/bc2 && cd /tmp/bc2
+curl -fL https://github.com/bol-van/zapret2/releases/download/v1.0.7/zapret2-v1.0.7.tar.gz -o z2.tar.gz
+tar -xzf z2.tar.gz && cd zapret2-*
+sudo BATCH=1 DOMAINS="rr1---sn-aj5go5-53.googlevideo.com" IPVS=4 ENABLE_HTTP=0 ENABLE_HTTPS_TLS12=0 ENABLE_HTTPS_TLS13=1 ENABLE_HTTP3=0 SCANLEVEL=quick ./blockcheck2.sh | tee /tmp/bc2.log
