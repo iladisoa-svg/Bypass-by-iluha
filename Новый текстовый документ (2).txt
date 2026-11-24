@@ -1,13 +1,17 @@
 sudo systemctl stop zapret2-domru; sudo /opt/zapret2-domru/start.sh >/dev/null
-sudo pkill -f '/opt/zapret2-domru/bin/nfqws2'
-sudo /opt/zapret2-domru/bin/nfqws2 --qnum=200 --fwmark=0x40000000 --debug=1 \
-  --lua-init=@/opt/zapret2-domru/lua/zapret-lib.lua \
-  --lua-init=@/opt/zapret2-domru/lua/zapret-antidpi.lua \
-  --lua-init=@/opt/zapret2-domru/lua/zapret-auto.lua \
-  --lua-init=@/opt/zapret2-domru/lua/zy-video-window.lua \
-  --filter-tcp=443 --ipset=/opt/zapret2-domru/lists/ipset-googlevideo.txt --ipset=/opt/zapret2-domru/lists/ipset-google.txt --filter-l7=unknown --out-range=-n3 --lua-desync=zy_video_window:syn --new \
-  --filter-tcp=443 --hostlist-domains=googlevideo.com --out-range=-d10 --lua-desync=zy_video_window --payload=tls_client_hello --lua-desync=fake:blob=fake_default_tls:ip_id=zero:tcp_ts=-600000:repeats=11:tls_mod=rnd,dupsid,sni=www.google.com --lua-desync=multidisorder:pos=1,midsld:ip_id=zero >/tmp/nfq_dbg.log 2>&1 &
-sleep 1
-for i in 1 2; do echo "=== #$i ==="; curl -4 -I -sS -m 5 https://rr1---sn-aj5go5-53.googlevideo.com/generate_204 2>&1 | head -n 2; sleep 1; done
-sudo pkill -f '/opt/zapret2-domru/bin/nfqws2'; sudo systemctl start zapret2-domru
-grep -iE 'zy_video|profile|lua|error|warn|desync|verdict' /tmp/nfq_dbg.log | head -n 35
+for fool in "tcp_md5" "badsum" "tcp_seq=-10000" "ip_ttl=5" "ip_ttl=6"; do
+  echo "=== $fool ==="
+  sudo pkill -f '/opt/zapret2-domru/bin/nfqws2' 2>/dev/null
+  sudo /opt/zapret2-domru/bin/nfqws2 --daemon --qnum=200 --fwmark=0x40000000 \
+    --lua-init=@/opt/zapret2-domru/lua/zapret-lib.lua \
+    --lua-init=@/opt/zapret2-domru/lua/zapret-antidpi.lua \
+    --lua-init=@/opt/zapret2-domru/lua/zapret-auto.lua \
+    --lua-init=@/opt/zapret2-domru/lua/zy-video-window.lua \
+    --filter-tcp=443 --ipset=/opt/zapret2-domru/lists/ipset-googlevideo.txt --ipset=/opt/zapret2-domru/lists/ipset-google.txt --filter-l7=unknown --out-range=-n3 --lua-desync=zy_video_window:syn --new \
+    --filter-tcp=443 --hostlist-domains=googlevideo.com --out-range=-d10 --lua-desync=zy_video_window --payload=tls_client_hello --lua-desync=fake:blob=fake_default_tls:ip_id=zero:${fool}:repeats=11:tls_mod=rnd,dupsid,sni=www.google.com --lua-desync=multidisorder:pos=1,midsld:ip_id=zero
+  sleep 0.5
+  curl -4 -I -sS -m 4 https://rr1---sn-aj5go5-53.googlevideo.com/generate_204 2>&1 | head -n 1
+  sleep 1
+  curl -4 -I -sS -m 4 https://rr1---sn-aj5go5-53.googlevideo.com/generate_204 2>&1 | head -n 1
+done
+sudo pkill -f '/opt/zapret2-domru/bin/nfqws2' 2>/dev/null; sudo systemctl start zapret2-domru
