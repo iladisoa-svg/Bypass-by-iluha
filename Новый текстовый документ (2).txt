@@ -1,1 +1,27 @@
-curl -4 -v -m 5 https://rr1---sn-aj5go5-53.googlevideo.com/generate_204 2>&1 | grep -E 'Trying|Connected|TLS|SSL|HTTP|curl:|alpn'
+sudo systemctl stop zapret2-domru; sudo /opt/zapret2-domru/start.sh >/dev/null
+B=/opt/zapret2-domru
+for name in "1_hostfakesplit" "2_multisplit_seqovl" "3_fake_multisplit" "4_fakedsplit" "5_syn_window_multisplit" "6_badsum_disorder"; do
+  sudo pkill -f "$B/bin/nfqws2" 2>/dev/null
+  case "$name" in
+    1_hostfakesplit)
+      ARGS="--lua-desync=fake:blob=fake_default_tls:tcp_ts=-600000:repeats=6:tls_mod=rnd,dupsid,sni=www.google.com --lua-desync=hostfakesplit:host=www.google.com:disorder_after:tcp_ts=-600000" ;;
+    2_multisplit_seqovl)
+      ARGS="--lua-desync=fake:blob=tls_google:tcp_ts=-600000:repeats=8 --lua-desync=multisplit:pos=1:seqovl=681:seqovl_pattern=tls_google" ;;
+    3_fake_multisplit)
+      ARGS="--lua-desync=fake:blob=fake_default_tls:tcp_ts=-600000:repeats=6:tls_mod=rnd,dupsid,sni=www.google.com --lua-desync=multisplit:pos=1,midsld" ;;
+    4_fakedsplit)
+      ARGS="--lua-desync=fakedsplit:pos=1:tcp_ts=-600000" ;;
+    5_syn_window_multisplit)
+      ARGS="--lua-desync=multisplit:pos=1,midsld:ip_id=zero" ;;
+    6_badsum_disorder)
+      ARGS="--lua-desync=fake:blob=tls_google:badsum:repeats=6 --lua-desync=multidisorder:pos=1,midsld" ;;
+  esac
+  sudo "$B/bin/nfqws2" --daemon --qnum=200 --fwmark=0x40000000 \
+    --lua-init="@$B/lua/zapret-lib.lua" --lua-init="@$B/lua/zapret-antidpi.lua" \
+    --blob="tls_google:@$B/blobs/tls_clienthello_www_google_com.bin" \
+    --filter-tcp=443 --hostlist-domains=googlevideo.com --out-range=-d10 --payload=tls_client_hello $ARGS
+  sleep 0.4
+  printf "%-25s -> " "$name"
+  curl -4 -I -sS -m 4 https://rr1---sn-aj5go5-53.googlevideo.com/generate_204 2>&1 | grep -E 'HTTP/|curl:' | head -n 1
+done
+sudo pkill -f "$B/bin/nfqws2" 2>/dev/null; sudo systemctl start zapret2-domru
